@@ -2,7 +2,20 @@
     font-weight: 700;
     font-size: 2rem;
 }
-.header h3{
+
+.billionaire{
+    margin-top: px;
+}
+
+.header-info{
+    margin-inline: 100px;
+    background-color: #168dddc2;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-block: 10px;
+    color: #222c42;
+}
+.header-info h3{
     font-size: 2rem;
     font-weight: 600;
 }

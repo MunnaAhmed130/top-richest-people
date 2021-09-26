@@ -5,7 +5,7 @@ import Container from './components/Container/Container';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Header className="header"></Header>
       <Container></Container>
     </div>
   );

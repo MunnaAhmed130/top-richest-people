@@ -6,15 +6,17 @@ import './Container.css'
 const Container = () => {
     const [person, SetPerson] = useState([]);
     const [cart, setCart] = useState([]);
+    const [name, setName] = useState([]);
     useEffect(() => {
         fetch('./person.Json')
             .then(res => res.json())
-        .then(data => SetPerson(data))
+            .then(data => SetPerson(data))
     },[])
 
     const handleNetWorth = person => {
         const newCart = [...cart, person]
         setCart(newCart);
+        console.log(newCart)
     }
     return (
         <div className="container">
@@ -25,7 +27,7 @@ const Container = () => {
             </div>
             
             <div className="cart-container">
-                <Cart key={person.name} cart={cart}></Cart>
+                <Cart key={person.name} cart={cart}  ></Cart>
             </div>
         </div>
     );

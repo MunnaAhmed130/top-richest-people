@@ -1,4 +1,17 @@
 .cart{
-    background-color: black;
+    background-color: blanchedalmond;
+    height: 200px;
+    margin-right: 50px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow:  1px 1px 5px 1px rgba(0, 0, 0, 0.205);
+}
 
+.cart h4{
+    font-size: 1.2rem;
+}
+.cart span{
+    font-size: 1rem;
+    font-weight: 200;
 }
